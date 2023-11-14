@@ -13,18 +13,21 @@ services:
     env_file:
       - .env
   backend:
+    image: i0ne1y/kittygram_backend
     build: ./backend/
     env_file: .env
     volumes:
       - static:/backend_static
       - media:/media
   frontend:
+    image: i0ne1y/kittygram_frontend
     build: ./frontend/
     env_file: .env
     command: cp -r /app/build/. /frontend_static/
     volumes:
       - static:/frontend_static
   gateway:
+    image: kittygram_gateway
     build: ./nginx/
     env_file: .env
     ports:
