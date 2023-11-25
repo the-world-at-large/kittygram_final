@@ -1,8 +1,12 @@
 # Проект Kittygram
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/the-world-at-large/kittygram_final/CI-CD)
+![Tests](https://img.shields.io/github/workflow/status/the-world-at-large/kittygram_final/tests)
+![Build](https://img.shields.io/github/workflow/status/the-world-at-large/kittygram_final/build_and_push_to_docker_hub)
+![Deploy](https://img.shields.io/github/workflow/status/the-world-at-large/kittygram_final/deploy)
 
 ## Описание проекта
+
+**Ссылка на проект:** [Kittygram](https://kittttygrammm.hopto.org)
 
 Проект Kittygram - это веб-приложение для обмена фотографиями котиков. Пользователи могут загружать свои фотографии котиков, просматривать фотографии других пользователей, ставить лайки и оставлять комментарии.
 
