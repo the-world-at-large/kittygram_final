@@ -1,8 +1,6 @@
 # Проект Kittygram
 
-![Tests](https://img.shields.io/github/workflow/status/the-world-at-large/kittygram_final/tests)
-![Build](https://img.shields.io/github/workflow/status/the-world-at-large/kittygram_final/build_and_push_to_docker_hub)
-![Deploy](https://img.shields.io/github/workflow/status/the-world-at-large/kittygram_final/deploy)
+![workflow](https://github.com/the-world-at-large/kittygram_final/actions/workflows/main.yml/badge.svg)
 
 ## Описание проекта
 
