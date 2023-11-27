@@ -15,8 +15,8 @@ services:
     image: i0ne1y/kittygram_backend:latest
     env_file: .env
     volumes:
-      - static_volume:/backend_static
-      - media_volume:/media
+      - static_volume:/static/
+      - media_volume:/app/media/
     depends_on:
       - kittygram_db
   frontend:
